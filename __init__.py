@@ -1,6 +1,7 @@
 from struct import unpack, calcsize
 from collections import namedtuple
 
+__version__ = "0.1"
 
 class BadFormatException(Exception):
     """Raised if the file is not in the correct EDF+ format."""
